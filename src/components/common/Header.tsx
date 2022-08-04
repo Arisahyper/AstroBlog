@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false)
+
   return (
-    <div>Header</div>
+    <div>
+      <button>
+      </button>
+      <div class="text-2xl font-bold">Header</div>
+    </div>
   )
 }
 
