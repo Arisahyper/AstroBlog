@@ -12,7 +12,7 @@ $ cd Astro
 $ pnpm i
 ```
 
-##  Self Setup
+## Self Setup
 
 If you want to start an Astro project with the same configuration, follow these steps.
 
@@ -23,6 +23,7 @@ $ pnpx astro add tailwindcss
 ```
 
 - src/styles/global.css
+
 ```css
 @tailwind base;
 @tailwind components;
@@ -30,6 +31,7 @@ $ pnpx astro add tailwindcss
 ```
 
 - src/layout/layout.astro
+
 ```astro
 ---
 import "../styles/global.css"
@@ -37,6 +39,7 @@ import "../styles/global.css"
 ```
 
 - src/pages/index/astro
+
 ```astro
 ---
 import Layout from "../layouts/Layout.astro";

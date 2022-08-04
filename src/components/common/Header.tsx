@@ -1,15 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div>
-      <button>
-      </button>
-      <div class="text-2xl font-bold">Header</div>
+      <div class="flex justify-between">
+        <div class="text-2xl font-bold">Header</div>
+        <button></button>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
